@@ -136,8 +136,6 @@ header .inner .search img {
     left: 84%;
 }
 
-/* 고정하는거는 픽셀로 */
-
 header .inner .search input[type="text"] {
     border: 0;
     border-bottom: 3px solid #333;
@@ -351,9 +349,6 @@ header .inner .menu .menu_all .menu_right .depth02 li {
     opacity: 0;
 }
 
-/* 여백을 줄때 한쪽으로만 주지말고
-양쪽으로 주거나 width값으로만 잡아야 반응하기 쉽다 */
-
 .icon div.on0 {
     transform: translateY(0);
     opacity: 1;
@@ -456,7 +451,6 @@ header .inner .menu .menu_all .menu_right .depth02 li {
     left: -20px;
 }
 
-/* 이미 next버튼에 포지션 잡혀있어서 두번안잡아도 됨*/
 .cont02 .list .item h4 {
     font-size: 2.5rem;
     text-align: center;
@@ -534,8 +528,6 @@ header .inner .menu .menu_all .menu_right .depth02 li {
     text-align: right;
 }
 
-/* insta는 두개지만 cont03 밑에 자식들 순서로 세번째라서 :nth-child(3)  */
-
 .cont03 .insta .left {
     width: 65%;
 }
@@ -565,10 +557,6 @@ header .inner .menu .menu_all .menu_right .depth02 li {
     border: 0;
 }
 
-/* 아이템들중 마지막 가상선택자 선을 없앨려면
-가상선택자에 last child X
-item에다가 줘야함 */
-
 .cont03 .insta .right .item figure {
 
     width: 12rem;
@@ -591,10 +579,6 @@ item에다가 줘야함 */
 .cont03 .insta .right .item div b {
     font-size: 2.5rem;
 }
-
-/* .cont03 .insta .right .item::before:last-child {
-    border: 0;
-} */
 
 .cont03 .insta .right_bottom {
     order: -1;
@@ -635,17 +619,10 @@ item에다가 줘야함 */
     box-shadow: 8px 8px 10px #C8C6C6;
 }
 
-/* 그림자 x축 y축 번짐 그림자색 */
-
-/* .cont04 .event .swiper-wrapper .swiper-slide figure {
-    height: 43.5rem;
-} */
-
 .cont04 .event .swiper-wrapper .swiper-slide figure img {
     width: 100%;
 }
 
-/* 큰이미지에만 object cover, 화이트값잡기 */
 .cont04 .event .swiper-wrapper .swiper-slide div {
     height: 78px;
     background-color: #F5F5F5;
@@ -657,7 +634,6 @@ item에다가 줘야함 */
     font-size: 25px;
 
 }
-
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
     left: -50px;
@@ -1052,6 +1028,5 @@ footer .icon_img img {
     .cont04 .event .swiper-wrapper .swiper-slide figure {
         width: 100%;
     }
-
 
 }
