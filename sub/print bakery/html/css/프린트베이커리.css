@@ -50,11 +50,7 @@ body.body_bg::before {
     width: 123px;
     height: 22px;
 }
-/* 아이콘에는 img 직접적으로 높이넓이깔아주고
-로고는 h1으로 잡아준뒤 그안 이미지에 직접적으로 높이 
-넓이 깔아줌 */
-/* 이미지 배경에만 부모에게 크기잡고 img에 100%씩 오브젝트
-커버해주는 거임 */
+
 .wrap header .inner .inner_up h1 a {
     display: block;
     margin: 21px 0 26px;
@@ -122,7 +118,6 @@ body.body_bg::before {
     
    
 }
-
 
 .img01, 
 .img02, 
@@ -206,7 +201,6 @@ body.body_bg::before {
     top: 30%;
     right: 0;
     z-index: 9;
-    /* transform: translateY(-50%); */
 }
 .cont01 .list .item .picture {
     display: flex;
@@ -359,9 +353,6 @@ footer .footer_in .down a {
 footer .footer_in .down img {
     width: 10px;
     height: 4.3px;
-    /* vertical-align: center; 해도 됨*/
-   /*  line-height는 이미지 적용 X */
-    /* align-items: center; 이미지 적용 X 인라인요소라서 */
     display: inline-block;
     margin-left: 19px;
 }
