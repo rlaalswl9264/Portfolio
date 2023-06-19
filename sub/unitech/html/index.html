@@ -51,8 +51,6 @@
             let h3 = cont02.getElementsByTagName('h3')[0];
             for (let i = 0; i < menuBtn.length; i++) {
                 menuBtn[i].onclick = function () {
-                    //menuBtn에 [i]를 붙이는 이유:
-                    //menuBtn에 해당하는 i가 여러개라서 지정해줘야함
                     cont01List[0].classList.remove('on')
                     cont01List[1].classList.remove('on')
                     cont01List[2].classList.remove('on')
@@ -88,8 +86,6 @@
                 let scrollBar = window.scrollY;
                 console.log(scrollBar);
                 console.log(title.offsetTop); 
-                //console은 테스트하는거 의미X 
-                // 스크롤바, offsettop수치 확인하는것
                 if (cont01.offsetTop / 2 < scrollBar) {
                     title.classList.add('on');
                 } else {

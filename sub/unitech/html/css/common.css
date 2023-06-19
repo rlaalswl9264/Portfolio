@@ -74,9 +74,8 @@ body {
     font-weight: 200;
 }
 #wrap {
-    max-width: 640px; /* 현재크기만큼 보이는것 : max-width  */
+    max-width: 640px;
     width: 100%;
-    /* max-width와 width를 같이 사용할 경우 max-width값보다 작을 때 width값으로 적용  */
     margin: 0 auto;
     background-color: aliceblue;
 }
@@ -88,7 +87,7 @@ body {
 header {
     width: 100%;
     height: 70px;
-    position: fixed; /* position: fixed있을때 width값 필수 */
+    position: fixed; 
     top: 0;
     left: 0;
     background-color: #ffffff86;
@@ -104,8 +103,6 @@ header .inner {
 }
 header .inner h1 {
     font-size: 0 ;
-    /* 로고이미지가 중앙에 오지않을때 h1폰트크기가
-     잡혀있을수도 있어서 fontsize 0잡아줌 */
 }
 header .inner h1 a {}
 header .inner h1 a  img {}
@@ -126,5 +123,3 @@ header .inner .menu_list img {
 header .inner nav {
     display: none;
 }
-
-/* footer */
