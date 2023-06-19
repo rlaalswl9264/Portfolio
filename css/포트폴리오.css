@@ -464,8 +464,10 @@ header .inner .profile .right .Personarity ul li:nth-child(3) {
 }
 
 .Project .inner .all .left figure p {
+    position: relative;
+    top: 17px;
     width: 665px;
-    height: 382px;
+    height: 363px;
     overflow: hidden;
 }
 
