@@ -10,7 +10,6 @@
 
     <script>
         window.onload = function () {
-            //메뉴 나타나기
             let bodyTag = document.getElementsByTagName('body')[0];
 
             let menuOpen = document.getElementsByClassName('menu_open')[0];
@@ -21,9 +20,7 @@
             menuOpen.onclick = function () {
                 if (hdMenu.style.display == 'none') {
                     hdMenu.style.display = 'block'
-                    //바디의 배경컬러 나타나기
-
-                    //배경컬러 나타나기
+                  
                     bodyTag.classList.add('body_bg');
                 }
 
@@ -32,11 +29,10 @@
                 if (hdMenu.style.display == 'block') {
                     hdMenu.style.display = 'none'
 
-                    //배경컬러 나타나기
                     bodyTag.classList.remove('body_bg');
                 }
 
-            }/* menuClose = 닫는 아이콘 뜻함*/
+            }
 
             //best sellers 탭메뉴
             let best = document.getElementsByClassName('best')[0];
@@ -56,7 +52,7 @@
                     bestList[i].classList.add('on');
                 }//bestMenuLi.conclick
             }
-            //event 이전다음버튼설정
+
             let event = document.getElementsByClassName('event')[0];
             let eventItem = event.getElementsByClassName('item');
 
@@ -87,11 +83,7 @@
 
                 eventItem[i].classList.add('on');
                
-            }/* eventNext = 다음버튼이라는 뜻 */
-
-
-
-
+            }
 
         } //window.onload
     </script>

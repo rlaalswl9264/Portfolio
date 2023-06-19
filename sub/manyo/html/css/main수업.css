@@ -26,7 +26,6 @@ body {
     position: relative;
 }
 
-/* 메뉴아이콘 클릭 시 나타남 */
 body.body_bg::before {
     content: '';
     width: 100%;
@@ -58,8 +57,6 @@ header .inner {
 }
 header .inner h1 {
     height: 25px;
-    /* 로고 위치 잡을때는 이미지크기도보고,
-    h1의 크기도 본 후 간격잡아줌 */
 }
 header .inner nav {
     background-color: #ffffff;
@@ -69,13 +66,12 @@ header .inner nav {
     height: 100vh;
     width: 300px;
     display: none;
-    overflow: auto; /* 스크롤바 생성 */
-} /* height 100vh할때 position fixed로 안하고 absolute로 하면 nav 밑부분 잘려서 나옴 */
+    overflow: auto; 
+}
 
 header .inner nav::-webkit-scrollbar {
     display: none;
-}/* 스크롤 사용은 되고 눈에는 안보이게 스타일 없애줌
-스크롤바 두개생겨 보기안좋으니 없애준거*/
+}
 
 header .inner nav .menu_close {
     position: absolute;
@@ -155,8 +151,7 @@ line-height: 1.3;
 }
 .best .list .item {
     width: calc(100% /2 - 5px);
-}/* 모바일로 만들때는 px로 만들지말고
-%나 vh,vw로 만들어야함 */
+}
 
 .best .list .item figure {
     width: 100%;
