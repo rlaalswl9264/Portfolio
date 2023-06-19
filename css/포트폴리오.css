@@ -107,10 +107,6 @@ header .inner .cover .main_bt {
     margin-top: 735px;
 }
 
-/* header .inner .pc {
-    position: fixed;
-} */
-
 header .inner .pc .gnb {
     display: none;
 }
@@ -128,11 +124,6 @@ header.on .inner .pc .gnb {
     align-items: center;
     transition: top 0.3s, background-color 0.5s;
 }
-
-/* header.on .inner .pc .gnb li.in,
-header.on .inner .pc .gnb li. {
-    color: #F700BA;
-} */
 
 header .inner .pc .gnb li {
     margin-right: 50px;
@@ -313,15 +304,6 @@ header .inner .profile .right .Personarity ul li:nth-child(3) {
     transform: translateX(0);
 }
 
-/* .progress-striped .bar.on.progress-bar,
-.progress-striped .bar.on.progress-bar2,
-.progress-striped .bar.on.progress-bar3 {
-    opacity: 1;
-    transition: 0.7s;
-    transform: translateX();
-
-} */
-
 @keyframes progressAnimationStrike {
     from {
         width: 0;
@@ -425,8 +407,6 @@ header .inner .profile .right .Personarity ul li:nth-child(3) {
     transform: translate(50%);
 }
 
-
-
 .Project .inner .all .left figure p img {
     position: relative;
     width: 100%;
@@ -492,7 +472,6 @@ header .inner .profile .right .Personarity ul li:nth-child(3) {
     border-bottom: 1px solid #000;
 }
 
-
 .Project .inner .all .list .item:last-child,
 .Project .inner .other .list .item:last-child {
     border-bottom: none;
@@ -524,11 +503,6 @@ header .inner .profile .right .Personarity ul li:nth-child(3) {
 }
 
 
-/* .Project .inner .all .list .item:nth-child(2n) nav li:last-child,
-.Project .inner .other .list .item:nth-child(2n) nav li:last-child {
-    margin-bottom: 50px;
-}
- */
 .Project .inner .all .list .item .info,
 .Project .inner .other .list .item .info {
     font-size: 20px;
@@ -583,9 +557,6 @@ header .inner .profile .right .Personarity ul li:nth-child(3) {
     font-size: 16px;
 }
 
-/* .Project .inner .all .list .item .info nav li > last-child {
-    border-bottom: 1px solid #000;
-} */
 .Graphic {
     overflow: hidden;
 }
@@ -642,10 +613,6 @@ header .inner .profile .right .Personarity ul li:nth-child(3) {
     color: #808080;
     margin-top: 100px;
 }
-/* .footer .f_right img {
-    animation: f_right 1s infinite alternate linear;
-} */
-
 
 @keyframes f_right {
     0% {
@@ -667,16 +634,3 @@ header .inner .profile .right .Personarity ul li:nth-child(3) {
     width: 200px;
     height: 200px;
 }
-
-/* .carouselTicker__list {
-    margin: 10px 0;
-    padding: 0;
-    list-style-type: none;
-    overflow: hidden;
-}
-.carouselTicker__item {
-    width: 100px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-} */
