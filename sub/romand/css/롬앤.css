@@ -328,7 +328,6 @@ header nav:nth-of-type(2) .menu {
 
 .cont02 .list .item:hover .text {
     opacity: 1;
-    /* 호버했을때 스르륵올라오게 하는 효과 */
 }
 
 .cont03 {
@@ -707,9 +706,6 @@ header nav:nth-of-type(2) .menu {
     line-height: 52px;
 }
 
-/* a가 인라인요소라서 display:block 써도 되지만
-a나 b(a밑에글)같은 자식에 간격과 테두리잡지말고
-부모한테잡아주기 */
 .footer .list .left .item .down a b img {
     position: absolute;
     top: 50%;
@@ -737,12 +733,3 @@ a나 b(a밑에글)같은 자식에 간격과 테두리잡지말고
     padding-bottom: 15px;
     line-height: 1.3;
 }
-
-
-/* .footer .footer02 p, 
-.footer .footer03 p,
-.footer .footer04 p,
-.footer .footer05 p {
-    margin: 10px 0;
-} */
-/* 위60, 옆80 */
